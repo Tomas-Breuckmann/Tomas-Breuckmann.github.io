@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+Neste repositório você encontra o resultado do desafio de 40 dias.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2> No que consiste este desafio?</h2>
 
-## Available Scripts
+Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os resultados. A intenção inicial não é finalizar algum projeto neste tempo, mas treinar a consistência, para que aqueles projetos que ficam somente nas ideias ganhem forma.
 
-In the project directory, you can run:
+<h2>Ferramentes e tecnoogias utilizadas</h2>
+<ul>
+    <li>Javascript</li>
+    <li>Styled components</li>
+    <li>CSS</li>
+    <li>React</li>
+    <li>Figma</li>
+    <li>Git | Github</li>
+    <li>React router dom</li>
+</ul>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✅ Dia 0: Lançameneto do desafio <a href="https://www.linkedin.com/feed/update/urn:li:activity:6933389021481992192/">Veja aqui.<a>
+✅ Dia 1: Algumas ideias no figma
+✅ Dia 2: 
+✅ Dia 3:
+✅ Dia 4:
+🔲 Dia 5:
+🔲 Dia 6:
+🔲 Dia 7:
+🔲 Dia 8:
+🔲 Dia 9:
+🔲 Dia 10:
+🔲 Dia 11:
+🔲 Dia 12:
+🔲 Dia 13:
+🔲 Dia 14:
+🔲 Dia 15:
+🔲 Dia 16:
+🔲 Dia 17:
+🔲 Dia 18:
+🔲 Dia 19:
+🔲 Dia 20:
+🔲 Dia 21:
+🔲 Dia 22:
+🔲 Dia 23:
+🔲 Dia 24:
+🔲 Dia 25:
+🔲 Dia 26:
+🔲 Dia 27:
+🔲 Dia 28:
+🔲 Dia 29:
+🔲 Dia 30:
+🔲 Dia 31:
+🔲 Dia 32:
+🔲 Dia 33:
+🔲 Dia 34:
+🔲 Dia 35:
+🔲 Dia 36:
+🔲 Dia 37:
+🔲 Dia 38:
+🔲 Dia 39:
+🔲 Dia 40:
