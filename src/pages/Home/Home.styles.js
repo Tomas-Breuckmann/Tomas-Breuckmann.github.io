@@ -9,7 +9,7 @@ export const Img=styled.img`
 `
 
 export const HomeMain=styled.main`
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;

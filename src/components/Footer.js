@@ -1,17 +1,17 @@
 import React from 'react'
 import { MainFooter } from './Footer.styled';
-import { Body } from '../Styles/Global.styles';
+// import { Body } from '../Styles/Helpers.styles';
 import { AiFillGithub } from 'react-icons/ai';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
 function Header() {
     return(
-        <Body>
+        <div>
             <MainFooter>
                 <TiSocialLinkedinCircular />
                 <AiFillGithub />
             </MainFooter>
-        </Body>
+        </div>
     )
 }
 

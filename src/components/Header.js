@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainHeader } from './Header.styled';
 import { AiOutlineMenuFold } from 'react-icons/ai';
-// import { Body } from '../Styles/Global.styles';
+// import { Body } from '../Styles/.styles';
 
 function Header() {
     return(

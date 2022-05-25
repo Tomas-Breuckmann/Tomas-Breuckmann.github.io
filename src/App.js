@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Global, Body  } from './Styles/Global.styles.js';
+import { Global } from './Styles/Global.styles.js';
 import Home from './pages/Home/Home.js';
 import Projetos from './pages/Projetos/Projetos.js';
 import Sobre from './pages/Sobre/Sobre.js';
@@ -8,7 +8,7 @@ import Contato from './pages/Contato/Contato.js';
 
 function App() {
   return (
-    <Body>
+    <div>
       <Global />
       <Routes>
         <Route exact path="/projetos" element={ <Projetos /> } />
@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/contato" element={ <Contato /> } />
         <Route exact path="/" element={ <Home /> } />
       </Routes>
-    </Body>
+    </div>
   );
 }
 
