@@ -6,6 +6,7 @@ import { Img, HomeMain, StyleNavLink, Menu } from './Home.styles.js';
 import { Body } from '../../Styles/Helpers.styles.js';
 
 function Home() {
+
     return(
         <Body>
             <Header />

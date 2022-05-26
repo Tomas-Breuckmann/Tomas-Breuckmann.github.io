@@ -1,16 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MainHeader } from './Header.styled';
-import { AiOutlineMenuFold } from 'react-icons/ai';
+import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
+import LateralMenu from './LateralMenu';
 // import { Body } from '../Styles/.styles';
 
 function Header() {
+
+    // LOCAL STATE
+    const [menu, setMenu] = useState(false);
+
+    const handleMenu = () => {
+        setMenu(!menu);
+    }
+
     return(
         <div>
+            <LateralMenu menu={menu}/>
             <MainHeader>
-                <AiOutlineMenuFold
-                    onClick={ () => console.log('icon click')}
-                    cursor='pointer'
-                />
+                {
+                    menu 
+                    ? 
+                    <AiOutlineMenuUnfold
+                        onClick={ () => handleMenu()}
+                        cursor='pointer'
+                    />
+                    :
+                    <AiOutlineMenuFold
+                        onClick={ () => handleMenu()}
+                        cursor='pointer'
+                    />
+            }
             </MainHeader>
         </div>
     )

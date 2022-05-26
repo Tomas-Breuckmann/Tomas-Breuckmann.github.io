@@ -17,7 +17,7 @@ Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os 
 
 <h2>Acompanhando o dia a dia.</h2>
 <ul>
-    <li> ✅ Dia 0: Lançameneto do desafio. 
+    <li> ✅ Dia 0: Lançamento do desafio. 
         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6933389021481992192/">Veja aqui.<a>  
     </li>
     <li> ✅ Dia 1: Algumas ideias no figma foram desenvolvidas. 
@@ -36,7 +36,9 @@ Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os 
     <li> ✅ Dia 5: Incluindo mais alguns elementos na página Home e corrigindo alguns bugs de CSS.
         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6935358719958380544/">Veja aqui.</a> 
     </li>
-    <li> 🔲 Dia 6:  </li>
+    <li> ✅ Dia 6: Hamburguer Menu. 
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6935714835032641536/">Veja aqui.
+    </li>
     <li> 🔲 Dia 8: </li>
     <li> 🔲 Dia 9: </li>
     <li> 🔲 Dia 10: </li>

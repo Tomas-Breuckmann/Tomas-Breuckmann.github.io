@@ -12,6 +12,10 @@ export const Global = createGlobalStyle`
       --green-80: rgb(121, 255, 0, 0.8);
       --green-60: rgb(121, 255, 0, 0.6);
       --green-40: rgb(121, 255, 0, 0.4);
+      --orange: rgb(255, 107, 0);
+      --orange-80: rgb(255, 107, 0, 0.8);
+      --orange-60: rgb(255, 107, 0, 0.6);
+      --orange-40: rgb(255, 107, 0, 0.4);
       --wid: 360px;      
       --hei: 100vh;
   }
