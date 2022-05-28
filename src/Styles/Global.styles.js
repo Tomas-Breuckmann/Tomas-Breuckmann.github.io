@@ -16,7 +16,7 @@ export const Global = createGlobalStyle`
       --orange-80: rgb(255, 107, 0, 0.8);
       --orange-60: rgb(255, 107, 0, 0.6);
       --orange-40: rgb(255, 107, 0, 0.4);
-      --wid: 360px;      
+      --wid: 100vw;      
       --hei: 100vh;
   }
 `;

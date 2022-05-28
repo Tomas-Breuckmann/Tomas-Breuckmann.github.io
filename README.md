@@ -37,7 +37,12 @@ Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os 
         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6935358719958380544/">Veja aqui.</a> 
     </li>
     <li> ✅ Dia 6: Hamburguer Menu. 
-        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6935714835032641536/">Veja aqui.
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6935714835032641536/">Veja aqui.</a>
+    </li>
+    <li> ✅ Dia 7: Rotas ok, feitas utilizando o React-Router-Dom v6 e estilizadas utilizando o styled Components.
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936108794217168896/"
+        >Veja aqui.</a>
+    
     </li>
     <li> 🔲 Dia 8: </li>
     <li> 🔲 Dia 9: </li>

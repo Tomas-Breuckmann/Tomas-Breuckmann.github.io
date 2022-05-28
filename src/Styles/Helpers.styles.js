@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import backimage from '../images/teclado.jpg'
+import { NavLink } from 'react-router-dom';
 
 export const Body= styled.div`
 width: var(--wid);
@@ -9,4 +10,13 @@ background-image: url(${backimage});
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
 `;
+
+export const StyleNavLink = styled(NavLink)`
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+`

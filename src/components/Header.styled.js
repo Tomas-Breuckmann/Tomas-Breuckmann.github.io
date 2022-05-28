@@ -11,7 +11,12 @@ export const MainHeader=styled.main`
     height: 50px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-end;
     font-size: 40px;
     padding: 5px 20px 5px 0;
+
+    p {
+      font-size: 24px;
+      padding-right: 20px;
+    }
 `

@@ -6,7 +6,7 @@ import { Body } from '../../Styles/Helpers.styles';
 function Contato() {
     return(
     <Body>
-        <Header />
+        <Header nome="Contatos"/>
         <Footer />
     </Body>
     )

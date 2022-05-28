@@ -6,7 +6,7 @@ import { Body } from '../../Styles/Helpers.styles';
 function Projetos() {
     return(
     <Body>
-        <Header />
+        <Header nome="Projetos"/>
         <Footer />
     </Body>
     )

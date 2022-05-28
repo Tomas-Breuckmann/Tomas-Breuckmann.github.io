@@ -4,7 +4,7 @@ import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
 import LateralMenu from './LateralMenu';
 // import { Body } from '../Styles/.styles';
 
-function Header() {
+function Header({nome}) {
 
     // LOCAL STATE
     const [menu, setMenu] = useState(false);
@@ -12,11 +12,12 @@ function Header() {
     const handleMenu = () => {
         setMenu(!menu);
     }
-
+console.log(nome);
     return(
         <div>
             <LateralMenu menu={menu}/>
             <MainHeader>
+            <p>{nome}</p>
                 {
                     menu 
                     ? 

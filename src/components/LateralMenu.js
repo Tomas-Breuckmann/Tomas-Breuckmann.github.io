@@ -1,8 +1,7 @@
 import { Container, Menu } from './LateralMenu.styled.js';
-import { StyleNavLink } from '../pages/Home/Home.styles.js';
+import { StyleNavLink } from '../Styles/Helpers.styles.js';
 
 export default function LateralMenu({menu}) {
-    console.log(menu);
     return(
         <Container>
             <Menu menu={menu}>
