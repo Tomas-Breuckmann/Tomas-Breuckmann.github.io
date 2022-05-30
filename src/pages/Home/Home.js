@@ -12,7 +12,7 @@ function Home() {
             <Header nome="Home"/>
             <HomeMain>
                 <Img src={ eu } alt="minha foto" />
-                <h2>Tomas Breuckmann</h2>
+                <h2 >Tomas Breuckmann</h2>
                 <h4>Desenvolvedor Web Full Stack</h4>
             </HomeMain>
             <Footer />

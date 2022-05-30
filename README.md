@@ -42,9 +42,11 @@ Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os 
     <li> ✅ Dia 7: Rotas ok, feitas utilizando o React-Router-Dom v6 e estilizadas utilizando o styled Components.
         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936108794217168896/"
         >Veja aqui.</a>
-    
     </li>
-    <li> 🔲 Dia 8: </li>
+    <li> ✅ Dia 8: Testando algumas fontes.
+        <a href=""
+        >Veja aqui.</a>
+    </li>
     <li> 🔲 Dia 9: </li>
     <li> 🔲 Dia 10: </li>
     <li> 🔲 Dia 11: </li>

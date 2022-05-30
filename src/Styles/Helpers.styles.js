@@ -16,6 +16,8 @@ justify-content: center;
 `;
 
 export const StyleNavLink = styled(NavLink)`
+    font-family: 'poly';
+    font-size: 1.2em;
     color: white;
     text-decoration: none;
     padding: 5px;

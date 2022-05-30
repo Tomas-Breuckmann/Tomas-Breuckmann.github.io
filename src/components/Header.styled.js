@@ -16,7 +16,8 @@ export const MainHeader=styled.main`
     padding: 5px 20px 5px 0;
 
     p {
-      font-size: 24px;
+      font-size: 18px;
       padding-right: 20px;
+      font-family: 'poly';
     }
 `

@@ -12,7 +12,7 @@ function Header({nome}) {
     const handleMenu = () => {
         setMenu(!menu);
     }
-console.log(nome);
+
     return(
         <div>
             <LateralMenu menu={menu}/>

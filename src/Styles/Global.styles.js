@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import poly from '../fonts/Telegraphem.otf';
 
 export const Global = createGlobalStyle`
   * {
@@ -19,5 +20,13 @@ export const Global = createGlobalStyle`
       --wid: 100vw;      
       --hei: 100vh;
   }
+
+  @font-face {
+      font-family: 'poly';
+      src: url(${poly}) format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
 `;
 
