@@ -44,10 +44,13 @@ Desenvolver um projeto pessoal em 40 dias consecutivos mostrando diariamente os 
         >Veja aqui.</a>
     </li>
     <li> ✅ Dia 8: Testando algumas fontes.
-        <a href=""
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936489622268985344/"
         >Veja aqui.</a>
     </li>
-    <li> 🔲 Dia 9: </li>
+    <li> ✅ Dia 9: Criando um figma para um novo projeto, para ver se é possível levar em paralelo uma vez que o frontend será similar.
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6936801240689340416/"
+        >Veja aqui.</a>
+    </li>
     <li> 🔲 Dia 10: </li>
     <li> 🔲 Dia 11: </li>
     <li> 🔲 Dia 12: </li>
