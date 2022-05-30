@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c9ef154f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMG_009.jpg": "/static/media/IMG_009.ea8643505fbdd45873f4.jpg",
+    "static/media/Telegraphem.otf": "/static/media/Telegraphem.b5731be2e74631433ca2.otf",
+    "static/media/teclado.jpg": "/static/media/teclado.21c7900cd86724f98cc5.jpg",
+    "index.html": "/index.html",
+    "main.c9ef154f.js.map": "/static/js/main.c9ef154f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c9ef154f.js"
+  ]
+}
