@@ -12,12 +12,14 @@ export const MainHeader=styled.main`
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 40px;
     padding: 5px 20px 5px 0;
+`
 
-    p {
-      font-size: 18px;
-      padding-right: 20px;
-      font-family: 'poly';
-    }
+export const MenuIcons=styled.div`
+
+    @media (min-width: 400px) {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 2s linear 300ms, opacity 300ms;
+  }
 `

@@ -12,12 +12,13 @@ background-position: center;
 background-size: cover;
 display: flex;
 flex-direction: column;
-justify-content: center;
+/* justify-content: center; */
+/* margin-top: 200px; */
 `;
 
 export const StyleNavLink = styled(NavLink)`
     font-family: 'poly';
-    font-size: 1.2em;
+    font-size: 1em;
     color: white;
     text-decoration: none;
     padding: 5px;

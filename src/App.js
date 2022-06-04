@@ -17,9 +17,11 @@ function App() {
       <Provider>
         <Global />
         <Routes >
-          <Route exact path="/projetos" element={ <Projetos /> } />
-          <Route exact path="/sobre" element={ <Sobre /> } />
           <Route exact path="/contato" element={ <Contato /> } />
+          <Route exact path="/projetos" element={ <Projetos /> } />
+          {/* <Route exact path="/projetos/estudos" element={ <ProjetosEstudos /> } /> */}
+          {/* <Route exact path="/projetos/pessoais" element={ <ProjetosPessoais /> } /> */}
+          <Route exact path="/sobre" element={ <Sobre /> } />
           <Route exact path="/" element={ <Home /> } />
         </Routes>
       </Provider>
