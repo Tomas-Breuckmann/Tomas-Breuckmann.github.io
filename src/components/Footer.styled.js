@@ -11,11 +11,12 @@ export const MainFooter=styled.main`
     height: 50px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
     padding: 5px 20px 5px 0;
     font-size: 40px;
 
-    a  {
-        text-decoration: none;
-    } 
+    a {
+      text-decoration: none;
+      color: white;
+    }
 `

@@ -6,6 +6,7 @@ import Projetos from './pages/Projetos/Projetos.js';
 import Sobre from './pages/Sobre/Sobre.js';
 import Contato from './pages/Contato/Contato.js';
 import Provider from './context/Provider.js';
+import ProjetosDetalhes from './pages/ProjetosDetalhes/ProjetosDetalhes.jsx';
 // import { createBrowserHistory } from "history";
 
 // let { location } = createBrowserHistory();
@@ -19,8 +20,7 @@ function App() {
         <Routes >
           <Route exact path="/contato" element={ <Contato /> } />
           <Route exact path="/projetos" element={ <Projetos /> } />
-          {/* <Route exact path="/projetos/estudos" element={ <ProjetosEstudos /> } /> */}
-          {/* <Route exact path="/projetos/pessoais" element={ <ProjetosPessoais /> } /> */}
+          <Route exact path="/projetos/:nome" element={ <ProjetosDetalhes /> } />
           <Route exact path="/sobre" element={ <Sobre /> } />
           <Route exact path="/" element={ <Home /> } />
         </Routes>
