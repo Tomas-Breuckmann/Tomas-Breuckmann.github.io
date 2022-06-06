@@ -21,6 +21,7 @@ export const H1=styled.h3`
     padding: 4px 24px 4px 8px;
     border-radius: 0 12px 12px 0;
     height: 40px;
+    width: 168px;
     cursor: pointer;
 `
 

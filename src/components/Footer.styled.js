@@ -14,4 +14,8 @@ export const MainFooter=styled.main`
     align-items: center;
     padding: 5px 20px 5px 0;
     font-size: 40px;
+
+    a  {
+        text-decoration: none;
+    } 
 `

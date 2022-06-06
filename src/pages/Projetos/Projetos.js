@@ -7,7 +7,7 @@ import { MainProjects, H1, Button, IconDown, MenuStudent, IconUp } from './Proje
 function Projetos() {
     
     // LOCAL STATE
-    const [menuTrybe, setMenuTrybe] = useState(false);
+    const [menuTrybe, setMenuTrybe] = useState(true);
     const [menuPessoal, setMenuPessoal] = useState(false);
 
     const handleMenuTrybe = () => {
@@ -40,8 +40,12 @@ function Projetos() {
                 }
             </MenuStudent>
             <Button>
-                <IconDown onClick={() => handleMenuPessoal()}/>
-                <H1 onClick={() => handleMenuPessoal()}>Projetos pessoais</H1>
+                {menuPessoal ?
+                    <IconDown onClick={() => handleMenuPessoal()}/>
+                    :
+                    <IconUp onClick={() => handleMenuPessoal()}/>
+                }
+            <H1 onClick={() => handleMenuPessoal()}>Projetos pessoais</H1>
             </Button>
         </MainProjects>
         <Footer />

@@ -8,8 +8,12 @@ function Header() {
     return(
         <div>
             <MainFooter>
+            <a href="https://www.linkedin.com/in/tomasbreuckmann" target="_blank" rel="noopener noreferrer">
                 <TiSocialLinkedinCircular />
+            </a>
+            <a href="https://github.com/Tomas-Breuckmann" target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
+            </a>
             </MainFooter>
         </div>
     )
