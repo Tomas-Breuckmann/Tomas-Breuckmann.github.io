@@ -11,11 +11,9 @@ export const HomeMain=styled.main`
     height: var(--hei);
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     color: white;
-    line-height: 1.6em;
-    gap: 30px;
     margin: 0 auto;
     
 `

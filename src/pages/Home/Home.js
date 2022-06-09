@@ -3,6 +3,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { HomeMain } from './Home.styles.js';
 import { Body } from '../../Styles/Helpers.styles.js';
+import eu from '../../images/IMG_009.jpg'
+import { Img } from '../Sobre/Sobre.styles';
 
 function Home() {
 
@@ -10,24 +12,9 @@ function Home() {
         <Body>
             <Header nome="Home"/>
             <HomeMain>
-                <div>
-                    <p>Para quando tudo der errado...</p>
-                    <p>Para quando tudo der certo...</p>
-                    <p>Comece novamente!</p>
-                </div>
-                <div>
-                    <p>"Comece novamente.</p>
-                    <p>Comece novamente.</p>
-                    <p>Com a mente alerta e atenta.</p>
-                    <p>Com a mente quieta e serena.</p>
-                    <p>Faça o seu melhor.</p>
-                    <p>Paciência e persistência.</p>
-                    <p>Com paciência e persistência,</p>
-                    <p>você será bem sucedido."</p>
-                </div>
-                <div>
-                    <p>Inspirado nas palavras do professor Goenka. </p>
-                </div>
+                <Img src={ eu } alt="minha foto" />
+                <h2>Tomas Breuckmann</h2>
+                <h4>Desenvolvedor Web Full Stack</h4>
             </HomeMain>
             <Footer />
         </Body>

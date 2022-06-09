@@ -9,7 +9,7 @@ export const Global = createGlobalStyle`
   }
   :root {
       --black: black;
-      --green-100: rgb(121, 255, 0);
+      --green: rgb(121, 255, 0);
       --green-80: rgb(121, 255, 0, 0.8);
       --green-60: rgb(121, 255, 0, 0.6);
       --green-40: rgb(121, 255, 0, 0.4);
@@ -19,6 +19,7 @@ export const Global = createGlobalStyle`
       --orange-40: rgb(255, 107, 0, 0.4);
       --wid: 100vw;      
       --hei: 100vh;
+      background-color: black;
   }
 
   @font-face {

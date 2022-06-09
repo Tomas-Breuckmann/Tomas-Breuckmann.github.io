@@ -12,7 +12,6 @@ export const SobreMain=styled.main`
     flex-direction: column;
     align-items: center;
     color: white;
-    line-height: 1.6em;
     margin-top: 70px;
 
     p {
