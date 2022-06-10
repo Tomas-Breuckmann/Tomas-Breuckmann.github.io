@@ -16,6 +16,8 @@ const dataFrontend = [
       objetivos: ['Visualizar na tela os planetas do sistema solar',
         'Encontrar informações sobre algumas missões espaciais'],
       imagem: solarSystem,
+      link: "https://solar-system-tomas-breuckmann.vercel.app/",
+      git: "https://github.com/Tomas-Breuckmann/solar-system",
     },
     {
       nome: 'tryunfo',

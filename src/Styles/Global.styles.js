@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import poly from '../fonts/Telegraphem.otf';
+import backimage from '../images/teclado.jpg'
 
 export const Global = createGlobalStyle`
   * {
@@ -19,7 +20,12 @@ export const Global = createGlobalStyle`
       --orange-40: rgb(255, 107, 0, 0.4);
       --wid: 100vw;      
       --hei: 100vh;
-      background-color: black;
+      /* background-color: black; */
+      background-image: url(${backimage});
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: cover;
+      background-attachment: fixed;
   }
 
   @font-face {
