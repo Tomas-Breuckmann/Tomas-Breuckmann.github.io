@@ -5,7 +5,7 @@ import { Body } from '../../Styles/Helpers.styles';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import data from '../../data/dataFrontend'
-import { BsCheck } from "react-icons/bs";
+// import { BsCheck } from "react-icons/bs";
 
 const P=styled.p`
     color: white;
@@ -38,15 +38,17 @@ const MainDetalhes=styled.main`
 
 const Img=styled.img`
     width: 212px;
+    height: 212px;
     margin: 12px 0 12px 0;
     border-radius: 8px;
+    object-fit: cover;
 `
 
 function ProjetosDetalhes() {
     const {nome}=useParams()
     const projeto = data.filter((proj) => proj.nome === nome)
     console.log(projeto[0]);
-    const { imagem, habilidades, link, git } = projeto[0];
+    const { imagem, link, git } = projeto[0];
     return(
     <Body>
         <Header/>
@@ -64,12 +66,12 @@ function ProjetosDetalhes() {
                rel="noopener noreferrer">GitHub ...
             </a>
             </div>
-            <P>Habilidades desenvolvidas</P>
+            {/* <P>Habilidades desenvolvidas</P>
             {habilidades.map((hab, index) => (
                 <div key={index}>
                     <BsCheck /><p>{hab}</p>
                 </div>
-            ))}
+            ))} */}
         </MainDetalhes>
         <Footer />
     </Body>

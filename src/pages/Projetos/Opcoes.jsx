@@ -12,6 +12,9 @@ function Opcoes() {
     return(
         <MenuStudent>
             <Item>Fundamentos</Item>
+            <StyleNavLink to='/projetos/pixel-art' >
+                <BsCircle/> Pixel Art
+            </StyleNavLink>
             <Item>Frontend</Item>
             <StyleNavLink to='/projetos/sistema-solar' >
                 <BsCircle/> Sistema Solar
