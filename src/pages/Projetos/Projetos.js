@@ -4,12 +4,15 @@ import Footer from '../../components/Footer';
 import { Body } from '../../Styles/Helpers.styles';
 import { MainProjects, H1, Button, IconDown, MenuStudent, IconUp } from './Projects.styles';
 import Opcoes from './Opcoes';
+import Render from './Render';
 
 function Projetos() {
     
     // LOCAL STATE
     const [menuTrybe, setMenuTrybe] = useState(true);
     const [menuPessoal, setMenuPessoal] = useState(true);
+    const [renderProjects, setRenderProjects] = useState(true);
+    const [renderModulo, setRenderModulo] = useState('')
 
     const handleMenuTrybe = () => {
         setMenuTrybe(!menuTrybe);
@@ -31,7 +34,14 @@ function Projetos() {
                     }
                     <H1 onClick={() => handleMenuTrybe()} >Projetos Tryber</H1>
                 </Button>
-                {!menuTrybe && <Opcoes />}
+                {!menuTrybe && 
+                    <Opcoes 
+                        render={renderProjects}
+                        setRender={setRenderProjects}
+                        modulo={renderModulo}
+                        setModulo={setRenderModulo}
+                    />}
+                {!renderProjects && <Render modulo={renderModulo}/>}
             </MenuStudent>
             <Button>
                 {menuPessoal ?

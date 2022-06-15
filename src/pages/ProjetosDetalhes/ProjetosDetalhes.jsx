@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 import { Body } from '../../Styles/Helpers.styles';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import data from '../../data/dataFrontend'
+import data from '../../data/data'
 // import { BsCheck } from "react-icons/bs";
 
 const P=styled.p`
