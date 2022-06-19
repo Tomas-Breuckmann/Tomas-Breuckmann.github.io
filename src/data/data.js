@@ -18,7 +18,7 @@ const data = [
     habilidades: [],
     objetivos: [],
     imagem: pixel,
-    link: "https://pixel-art-mocha.vercel.app/",
+    link: "https://pixel-art-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/pixel-art",
   },
   {
@@ -29,7 +29,7 @@ const data = [
     habilidades: [],
     objetivos: [],
     imagem: color,
-    link: "https://color-guess-ashy.vercel.app/",
+    link: "https://color-guess-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/color-guess",
   },
   {
@@ -40,7 +40,7 @@ const data = [
     habilidades: [],
     objetivos: [],
     imagem: mystery,
-    link: "https://mystery-letter.vercel.app/",
+    link: "https://mystery-letter-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/mystery-letter",
   },
   {
@@ -51,8 +51,35 @@ const data = [
     habilidades: [],
     objetivos: [],
     imagem: todo,
-    link: "https://todo-list-lovat-six.vercel.app/",
+    link: "https://todo-list-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/todo-list",
+  },
+  {
+    nome: 'Meme Generator',
+    modulo: 'fundamentos',
+    tipo: 'individual',
+    equipe: [],
+    habilidades: [],
+    objetivos: [],
+    imagem: todo,
+    link: "https://meme-generator-tomas-breuckmann.vercel.app/",
+    git: "https://github.com/Tomas-Breuckmann/meme-generator",
+  },
+  {
+    nome: 'Trybewarts',
+    modulo: 'fundamentos',
+    tipo: 'equipe',
+    equipe: [
+      { nome: 'Lethicia andrade',
+        linkedin: 'https://www.linkedin.com/in/lethiciahas/',
+        github: 'https://github.com/Lethiciahas'
+      }
+    ],
+    habilidades: [],
+    objetivos: [],
+    imagem: todo,
+    link: "https://trybewarts-tomas-breuckmann.vercel.app/",
+    git: "https://github.com/Tomas-Breuckmann/trybewarts",
   },
   {
       nome: 'sistema-solar',
@@ -87,7 +114,7 @@ const data = [
       objetivos: ['Visualizar na tela os planetas do sistema solar',
         'Encontrar informações sobre algumas missões espaciais'],
       imagem: tryunfo,
-      link: "https://tryunfo-gamma.vercel.app/",
+      link: "https://tryunfo-tomas-breuckmann.vercel.app/",
       git: "https://github.com/Tomas-Breuckmann/tryunfo",
     }
   ];

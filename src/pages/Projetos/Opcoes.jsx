@@ -37,18 +37,6 @@ function Opcoes({render, setRender, modulo, setModulo}) {
             <Button onClick={ () => handleRender('frontend')}>Front-end</Button>
             <Button onClick={ () => handleRender('backend')}>Back-end</Button>
             <Button onClick={ () => handleRender('ciencia')}>Ciência da computação</Button>
-            {/* <StyleNavLink to='/projetos/pixel-art' >
-                <BsCircle/> Pixel Art
-            </StyleNavLink>
-            <Item>Frontend</Item>
-            <StyleNavLink to='/projetos/sistema-solar' >
-                <BsCircle/> Sistema Solar
-            </StyleNavLink>
-            <StyleNavLink to='/projetos/tryunfo'>
-                <BsCircle/> Tryunfo
-            </StyleNavLink>
-            <Item>Backend</Item>
-            <Item>Ciência da computação</Item> */}
         </MenuStudent>
     )
 }

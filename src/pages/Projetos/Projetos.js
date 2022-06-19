@@ -41,7 +41,6 @@ function Projetos() {
                         modulo={renderModulo}
                         setModulo={setRenderModulo}
                     />}
-                {!renderProjects && <Render modulo={renderModulo}/>}
             </MenuStudent>
             <Button>
                 {menuPessoal ?
@@ -52,7 +51,8 @@ function Projetos() {
             <H1 onClick={() => handleMenuPessoal()}>Projetos pessoais</H1>
             </Button>
         </MainProjects>
-        <Footer />
+                {!renderProjects && <Render modulo={renderModulo}/>}
+        {/* <Footer /> */}
     </Body>
     )
 }
