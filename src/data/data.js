@@ -3,7 +3,9 @@ import pixel from '../images/projetos/fund/fund-pixel-art.png'
 import color from '../images/projetos/fund/fund-color-guess.png'
 import mystery from '../images/projetos/fund/fund-mystery-letter.png'
 import todo from '../images/projetos/fund/fund-todo-list.png'
-
+import shopping from '../images/projetos/fund/fund-shopping-cart.png'
+import meme from '../images/projetos/fund/fund-meme-generator.png'
+import warts from '../images/projetos/fund/fund-trybewarts.png'
 
 // FRONTEND
 import solarSystem from '../images/projetos/front/front-solar-system.png'
@@ -61,7 +63,7 @@ const data = [
     equipe: [],
     habilidades: [],
     objetivos: [],
-    imagem: todo,
+    imagem: meme,
     link: "https://meme-generator-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/meme-generator",
   },
@@ -77,9 +79,20 @@ const data = [
     ],
     habilidades: [],
     objetivos: [],
-    imagem: todo,
+    imagem: warts,
     link: "https://trybewarts-tomas-breuckmann.vercel.app/",
     git: "https://github.com/Tomas-Breuckmann/trybewarts",
+  },
+    {
+    nome: 'Shopping Cart',
+    modulo: 'fundamentos',
+    tipo: 'individual',
+    equipe: [],
+    habilidades: [],
+    objetivos: [],
+    imagem: shopping,
+    link: "https://shopping-cart-tomas-breuckmann.vercel.app/",
+    git: "https://github.com/Tomas-Breuckmann/shopping-cart",
   },
   {
       nome: 'sistema-solar',

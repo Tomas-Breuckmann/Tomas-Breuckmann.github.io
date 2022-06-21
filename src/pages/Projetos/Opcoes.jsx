@@ -10,25 +10,23 @@ import { MenuStudent } from './Projects.styles';
 
 const Button=styled.div`
     background-color: var(--green-40);
-    padding-left: 12px;
+    /* text-align: right; */
+    padding-right: 12px;
     border-radius: 12px;
-    height: 30px;
-    /* width: 168px; */
+    height: 24px;
+    width: 200px;
     cursor: pointer;
     margin-top: 8px;
     margin-left: 52px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 `
 
 function Opcoes({render, setRender, modulo, setModulo}) {
 
     const handleRender = (newModulo) => {    
-        if (modulo === '') {
-            console.log('estou no if vazio');
-            setModulo(newModulo)
-            setRender(!render);
-        } else if (modulo === newModulo) {
-            setRender(!render);
-        };
+        render && setRender(!render)
         setModulo(newModulo)
     }
     return(

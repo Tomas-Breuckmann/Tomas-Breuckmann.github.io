@@ -10,8 +10,13 @@ const P=styled.p`
 const MainDetalhes=styled.main`
     display: flex;
     flex-direction: column;
+    /* background-color: var(--green-40); */
+    border: 1px solid var(--green-40);
+    border-radius: 4px;
+    padding: 4px;
+    /* align-items: center; */
     /* margin-top: 100px; */
-    margin-left: 50px;
+    /* margin-left: 50px; */
 
     div {
         color: white;
@@ -31,7 +36,7 @@ const MainDetalhes=styled.main`
 `
 
 const Img=styled.img`
-    width: 212px;
+    width: 340px;
     height: 212px;
     margin: 12px 0 12px 0;
     border-radius: 8px;
@@ -41,7 +46,9 @@ const Img=styled.img`
 const MainRender=styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin-top: 24px
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px
 `
 
 function Render({modulo}) {

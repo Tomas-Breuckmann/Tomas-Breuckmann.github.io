@@ -14,14 +14,20 @@ export const HomeMain=styled.main`
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      margin-top: 12px;
+    }
     
 `
 
-export const Menu=styled.main`
-    margin-top: 30px;
+export const Links=styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    width: 120px;
 `

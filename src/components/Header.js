@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
-import { MainHeader, MenuIcons} from './Header.styled';
-import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
+import { MainHeader, MenuIcons, Fold, Unfold} from './Header.styled';
+// import { AiOutlineMenuFold, AiOutlineMenuUnfold } from 'react-icons/ai';
 import LateralMenu from './LateralMenu';
 import Menu from './Menu';
-// import { Body } from '../Styles/.styles';
 
-// function Header({nome}) {
     function Header() {
 
     // LOCAL STATE
@@ -24,16 +22,16 @@ import Menu from './Menu';
                 {
                     menu 
                     ? 
-                    <AiOutlineMenuUnfold
+                    <Unfold
                         onClick={ () => handleMenu()}
                         cursor='pointer'
-                        fontSize='30px'
+                        fontSize='40px'
                     />
                     :
-                    <AiOutlineMenuFold
+                    <Fold
                         onClick={ () => handleMenu()}
                         cursor='pointer'
-                        fontSize='30px'
+                        fontSize='40px'
                     />
                 }
             </MenuIcons>

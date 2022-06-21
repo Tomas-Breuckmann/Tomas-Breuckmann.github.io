@@ -3,8 +3,8 @@ import { StyleNavLink } from '../Styles/Helpers.styles.js';
 
 export default function LateralMenu({menu}) {
     return(
-        <Container>
-            <Menu menu={menu}>
+        <Container menu={menu}>
+            <Menu>
                 <StyleNavLink to={ '/'}>
                     HOME
                 </StyleNavLink>
@@ -14,9 +14,9 @@ export default function LateralMenu({menu}) {
                 <StyleNavLink to={ '/projetos'}>
                     PROJETOS
                 </StyleNavLink>
-                <StyleNavLink to={ '/contato'}>
+                {/* <StyleNavLink to={ '/contato'}>
                     CONTATOS
-                </StyleNavLink>
+                </StyleNavLink> */}
             </Menu>
         </Container>
     )

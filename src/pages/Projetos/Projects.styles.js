@@ -4,29 +4,37 @@ import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai'
 export const MainProjects=styled.main`
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: flex-end;
     color: white;
-    line-height: 2em;
-    margin: auto;
-    margin-top: 100px;
-    gap: 12px;
-
-    @media (min-width: 560px) {
+    /* line-height: 2em; */
+    margin: 60px 20px 0 0 ;
+    /* margin-top: 60px; */
+    /* gap: 12px; */
+    
+    /* @media (min-width: 560px) {
         flex-direction: row;
+        margin-left: 50px;
+  } */
+`
+export const Menus=styled.div`
+    display: flex;
+    gap: 8px;
+    @media (max-width: 560px) {
+        flex-direction: column;
+        margin-left: 50px;
   }
 `
 
 export const H1=styled.h3`
-    background-color: var(--orange-40);
-    padding: 4px 24px 4px 8px;
-    border-radius: 0 12px 12px 0;
-    height: 40px;
-    width: 250px;
+    /* background-color: var(--orange-40); */
+    border-bottom: 1px solid var(--orange-40);
+    /* padding: 4px 4px 4px 50px; */
+    /* border-radius: 0 12px 12px 0; */
+    height: 30px;
+    width: 250px;   
     cursor: pointer;
-`
-
-export const Button=styled.div`
-    display: flex;
+    text-align: right;
+    margin-top: 12px;
 `
 
 export const IconDown=styled(AiFillCaretDown)`
@@ -49,4 +57,5 @@ export const IconUp=styled(AiFillCaretUp)`
 export const MenuStudent=styled.div`
     display: flex;
     flex-direction: column;
+    /* margin-top: 12px; */
 `
