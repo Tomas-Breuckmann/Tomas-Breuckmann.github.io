@@ -6,14 +6,14 @@ export const MainFooter=styled.main`
     border-top: 2px solid var(--green-80);
     border-bottom: 2px solid var(--green-80);
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     width: var(--wid);
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: flex-end;
     /* align-items: center; */
     padding: 5px 20px 5px 0;
-    font-size: 40px;
+    font-size: 30px;
 
     a {
       text-decoration: none;

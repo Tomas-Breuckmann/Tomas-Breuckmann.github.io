@@ -21,19 +21,20 @@ const MainDetalhes=styled.main`
     a {
       text-decoration: none;
       color: white;
-      font-size: 20px;
-      background-color: var(--orange-40);
+      font-size: 16px;
+      /* background-color: var(--orange-40); */
+      border: 1px solid var(--orange-40);
       width: 100px;
       padding: 4px 8px;
-      margin-bottom: 12px;
+      /* margin-bottom: 12px; */
       border-radius: 4px;
-      margin-right: 12px;
+      /* margin-right: 12px; */
     }
 `
 
 const Img=styled.img`
-    width: 320px;
-    height: 212px;
+    width: 212px;
+    height: 125px;
     margin: 12px 0 12px 0;
     border-radius: 8px;
     object-fit: cover;
@@ -42,9 +43,10 @@ const Img=styled.img`
 const MainRender=styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 12px;
     margin-top: 12px;
+    margin-bottom: 42px;
     width: 100%;
     /* background-color: red; */
 `

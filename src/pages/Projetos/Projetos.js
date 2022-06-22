@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../../components/Header';
-// import Footer from '../../components/Footer';
+import Footer from '../../components/Footer';
 import { Body } from '../../Styles/Helpers.styles';
 import { MainProjects, H1, Menus, MenuStudent } from './Projects.styles';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai'
@@ -49,7 +49,7 @@ function Projetos() {
             </Menus>
         {!renderProjects && <Render modulo={renderModulo}/>}
         </MainProjects>
-        {/* <Footer /> */}
+        <Footer />
     </Body>
     )
 }

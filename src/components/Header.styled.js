@@ -6,16 +6,17 @@ export const MainHeader=styled.main`
     position: fixed;
     top: 10px;
     width: var(--wid);
+    height: 40px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    @media (min-width: 400px) {
-        background-color: var(--green-40);
-        border-top: 2px solid var(--green-80);
-        border-bottom: 2px solid var(--green-80);
+    background-color: var(--green-40);
+    border-top: 2px solid var(--green-80);
+    border-bottom: 2px solid var(--green-80);
+     
+    /* @media (min-width: 400px) {
         
-  }
+  } */
 `
 
 export const MenuIcons=styled.div`
@@ -28,11 +29,19 @@ export const MenuIcons=styled.div`
 `
 export const Fold=styled(AiOutlineMenuFold)`
   cursor: pointer;
-  font-size: 40px;
+  font-size: 30px;
   margin-right: 16px;
 `
 export const Unfold=styled(AiOutlineMenuUnfold)`
   cursor: pointer;
-  font-size: 40px;
+  font-size: 30px;
   margin-right: 16px;
+`
+
+export const Links=styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    width: 120px;
+
 `

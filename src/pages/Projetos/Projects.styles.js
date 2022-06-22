@@ -4,26 +4,37 @@ import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai'
 export const MainProjects=styled.main`
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     color: white;
     /* line-height: 2em; */
     margin-top: 60px;
     /* margin-top: 60px; */
     /* gap: 12px; */
     
-    /* @media (min-width: 560px) {
+    @media (min-width: 560px) {
         flex-direction: row;
-        margin-left: 50px;
-  } */
+        /* margin-left: 50px; */
+        align-items: flex-start;
+        /* background-color: yellow; */
+  }
 `
 export const Menus=styled.div`
     display: flex;
     gap: 8px;
     margin-right: 20px;
+
     @media (max-width: 560px) {
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 24px;
   }
+  @media (min-width: 560px) {
+        flex-direction: column;
+        /* margin-left: 50px; */
+        /* align-items: flex-start; */
+        /* background-color: red; */
+        margin-left: 24px;
+  }
+
 `
 
 export const H1=styled.h3`
@@ -32,9 +43,9 @@ export const H1=styled.h3`
     /* padding: 4px 4px 4px 50px; */
     /* border-radius: 0 12px 12px 0; */
     height: 30px;
-    width: 250px;   
+    width: 180px;   
     cursor: pointer;
-    text-align: right;
+    /* text-align: left; */
     margin-top: 12px;
 `
 

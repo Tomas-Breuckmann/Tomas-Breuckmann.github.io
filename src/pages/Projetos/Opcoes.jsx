@@ -11,15 +11,15 @@ import { MenuStudent } from './Projects.styles';
 const Button=styled.div`
     background-color: var(--green-40);
     /* text-align: right; */
-    padding-right: 12px;
-    border-radius: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
     height: 24px;
-    width: 200px;
+    width: 180px;
     cursor: pointer;
     margin-top: 8px;
-    margin-left: 52px;
+    /* margin-left: 52px; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 `
 

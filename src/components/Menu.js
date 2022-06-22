@@ -13,9 +13,6 @@ export default function Menu() {
             <StyleNavLink to={ '/projetos'}>
                 PROJETOS
             </StyleNavLink>
-            {/* <StyleNavLink to={ '/contato'}>
-                CONTATOS
-            </StyleNavLink> */}
         </MainMenu>
     )
 }
