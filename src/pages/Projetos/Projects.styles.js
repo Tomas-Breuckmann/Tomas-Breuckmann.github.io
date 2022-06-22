@@ -7,7 +7,7 @@ export const MainProjects=styled.main`
     align-items: flex-end;
     color: white;
     /* line-height: 2em; */
-    margin: 60px 20px 0 0 ;
+    margin-top: 60px;
     /* margin-top: 60px; */
     /* gap: 12px; */
     
@@ -19,6 +19,7 @@ export const MainProjects=styled.main`
 export const Menus=styled.div`
     display: flex;
     gap: 8px;
+    margin-right: 20px;
     @media (max-width: 560px) {
         flex-direction: column;
         margin-left: 50px;

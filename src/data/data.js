@@ -10,6 +10,7 @@ import warts from '../images/projetos/fund/fund-trybewarts.png'
 // FRONTEND
 import solarSystem from '../images/projetos/front/front-solar-system.png'
 import tryunfo from '../images/projetos/front/front-tryunfo.png'
+import tunes from '../images/projetos/front/front-trybetunes.png'
 
 const data = [
   {
@@ -129,6 +130,17 @@ const data = [
       imagem: tryunfo,
       link: "https://tryunfo-tomas-breuckmann.vercel.app/",
       git: "https://github.com/Tomas-Breuckmann/tryunfo",
+    },
+    {
+      nome: 'trybetunes',
+      modulo: 'frontend',
+      tipo: 'individual',
+      equipe: [],
+      habilidades: [],
+      objetivos: [],
+      imagem: tunes,
+      link: "https://trybetunes-tomas-breuckmann.vercel.app",
+      git: "https://github.com/Tomas-Breuckmann/trybetunes",
     }
   ];
   
