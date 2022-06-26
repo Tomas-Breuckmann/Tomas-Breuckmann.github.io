@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.js": "/static/js/main.0632b571.js",
+    "main.js": "/static/js/main.29042f4b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/fund-shopping-cart.png": "/static/media/fund-shopping-cart.a5fa17e644cd485d699b.png",
     "static/media/IMG_009.jpg": "/static/media/IMG_009.ea8643505fbdd45873f4.jpg",
     "static/media/fund-meme-generator.png": "/static/media/fund-meme-generator.45bfecd6e155665b03fd.png",
     "static/media/front-solar-system.png": "/static/media/front-solar-system.2e05f36da8f40bb86216.png",
     "static/media/fund-trybewarts.png": "/static/media/fund-trybewarts.bcb5be586852c7f063fd.png",
+    "static/media/front-online-store.png": "/static/media/front-online-store.ef5d8a01c9cbc2da6b92.png",
     "static/media/front-trybetunes.png": "/static/media/front-trybetunes.8c9cfcb72c4e0b6d3480.png",
     "static/media/Telegraphem.otf": "/static/media/Telegraphem.b5731be2e74631433ca2.otf",
     "static/media/fund-todo-list.png": "/static/media/fund-todo-list.f3461d14a165a3722a43.png",
+    "static/media/front-trybe-wallet.png": "/static/media/front-trybe-wallet.4d8f8503bf5c2b1a1164.png",
     "static/media/fund-mystery-letter.png": "/static/media/fund-mystery-letter.959efd593ac1d76d70b7.png",
     "static/media/front-tryunfo.png": "/static/media/front-tryunfo.7c37115fc8fef50ca774.png",
     "static/media/fund-color-guess.png": "/static/media/fund-color-guess.27be91255698c7e96017.png",
     "static/media/fund-pixel-art.png": "/static/media/fund-pixel-art.facbce856ed9104b727b.png",
     "static/media/teclado.jpg": "/static/media/teclado.21c7900cd86724f98cc5.jpg",
     "index.html": "/index.html",
-    "main.0632b571.js.map": "/static/js/main.0632b571.js.map",
+    "main.29042f4b.js.map": "/static/js/main.29042f4b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0632b571.js"
+    "static/js/main.29042f4b.js"
   ]
 }
