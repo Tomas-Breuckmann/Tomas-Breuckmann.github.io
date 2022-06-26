@@ -11,6 +11,8 @@ import warts from '../images/projetos/fund/fund-trybewarts.png'
 import solarSystem from '../images/projetos/front/front-solar-system.png'
 import tryunfo from '../images/projetos/front/front-tryunfo.png'
 import tunes from '../images/projetos/front/front-trybetunes.png'
+import onlineStore from '../images/projetos/front/front-online-store.png'
+import wallet from '../images/projetos/front/front-trybe-wallet.png'
 
 const data = [
   {
@@ -96,7 +98,7 @@ const data = [
     git: "https://github.com/Tomas-Breuckmann/shopping-cart",
   },
   {
-      nome: 'sistema-solar',
+      nome: 'sistema solar',
       modulo: 'frontend',
       tipo: 'individual',
       equipe: [],
@@ -141,6 +143,45 @@ const data = [
       imagem: tunes,
       link: "https://trybetunes-tomas-breuckmann.vercel.app",
       git: "https://github.com/Tomas-Breuckmann/trybetunes",
+    },
+    {
+      nome: 'online store',
+      modulo: 'frontend',
+      tipo: 'equipe',
+      equipe: [
+        { nome: 'Vinicius Gomes',
+        linkedin: '',
+        github: 'https://github.com/LeatherFalls'
+        },
+        { nome: 'Amanda Machado',
+        linkedin: '',
+        github: 'https://github.com/mandioquynha'
+        },
+        { nome: 'Noelma Gondim',
+        linkedin: '',
+        github: 'https://github.com/noelmagondim'
+        },
+        { nome: 'Natã Mendes',
+        linkedin: '',
+        github: 'https://github.com/nata-mendes'
+        }
+      ],
+      habilidades: [],
+      objetivos: [],
+      imagem: onlineStore,
+      link: "https://frontend-online-store-tomas-breuckmann.vercel.app/",
+      git: "https://github.com/Tomas-Breuckmann/frontend-online-store",
+    },
+    {
+      nome: 'trybe wallet',
+      modulo: 'frontend',
+      tipo: 'individual',
+      equipe: [],
+      habilidades: [],
+      objetivos: [],
+      imagem: wallet,
+      link: "https://trybe-wallet-tomas-breuckmann.vercel.app/",
+      git: "https://github.com/Tomas-Breuckmann/trybe-wallet",
     }
   ];
   
