@@ -14,6 +14,7 @@ export const HomeMain=styled.main`
     align-items: center;
     justify-content: center;
     color: white;
+    line-height: 1.5;
     /* margin: 0 auto; */
 
     a {
