@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.29042f4b.js",
+    "main.js": "/static/js/main.a4464129.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/tomas-yoga.jpg": "/static/media/tomas-yoga.78100082a8854a03aef6.jpg",
     "static/media/fund-shopping-cart.png": "/static/media/fund-shopping-cart.a5fa17e644cd485d699b.png",
     "static/media/IMG_009.jpg": "/static/media/IMG_009.ea8643505fbdd45873f4.jpg",
     "static/media/fund-meme-generator.png": "/static/media/fund-meme-generator.45bfecd6e155665b03fd.png",
@@ -18,10 +19,10 @@
     "static/media/fund-pixel-art.png": "/static/media/fund-pixel-art.facbce856ed9104b727b.png",
     "static/media/teclado.jpg": "/static/media/teclado.21c7900cd86724f98cc5.jpg",
     "index.html": "/index.html",
-    "main.29042f4b.js.map": "/static/js/main.29042f4b.js.map",
+    "main.a4464129.js.map": "/static/js/main.a4464129.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.29042f4b.js"
+    "static/js/main.a4464129.js"
   ]
 }
