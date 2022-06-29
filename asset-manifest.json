@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.a4464129.js",
+    "main.js": "/static/js/main.41dc8ead.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/tomas-yoga.jpg": "/static/media/tomas-yoga.78100082a8854a03aef6.jpg",
     "static/media/fund-shopping-cart.png": "/static/media/fund-shopping-cart.a5fa17e644cd485d699b.png",
@@ -8,6 +8,7 @@
     "static/media/fund-meme-generator.png": "/static/media/fund-meme-generator.45bfecd6e155665b03fd.png",
     "static/media/front-solar-system.png": "/static/media/front-solar-system.2e05f36da8f40bb86216.png",
     "static/media/fund-trybewarts.png": "/static/media/fund-trybewarts.bcb5be586852c7f063fd.png",
+    "static/media/front-star-wars.png": "/static/media/front-star-wars.092a8c63efa8434f7c4b.png",
     "static/media/front-online-store.png": "/static/media/front-online-store.ef5d8a01c9cbc2da6b92.png",
     "static/media/front-trybetunes.png": "/static/media/front-trybetunes.8c9cfcb72c4e0b6d3480.png",
     "static/media/Telegraphem.otf": "/static/media/Telegraphem.b5731be2e74631433ca2.otf",
@@ -19,10 +20,10 @@
     "static/media/fund-pixel-art.png": "/static/media/fund-pixel-art.facbce856ed9104b727b.png",
     "static/media/teclado.jpg": "/static/media/teclado.21c7900cd86724f98cc5.jpg",
     "index.html": "/index.html",
-    "main.a4464129.js.map": "/static/js/main.a4464129.js.map",
+    "main.41dc8ead.js.map": "/static/js/main.41dc8ead.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a4464129.js"
+    "static/js/main.41dc8ead.js"
   ]
 }
