@@ -17,12 +17,12 @@ export const HomeMain=styled.main`
     line-height: 1.5;
     /* margin: 0 auto; */
 
-    a {
+    /* a {
       text-decoration: none;
       color: white;
       font-size: 30px;
       margin-top: 12px;
-    }
+    } */
     
 `
 

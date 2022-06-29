@@ -13,6 +13,7 @@ import tryunfo from '../images/projetos/front/front-tryunfo.png'
 import tunes from '../images/projetos/front/front-trybetunes.png'
 import onlineStore from '../images/projetos/front/front-online-store.png'
 import wallet from '../images/projetos/front/front-trybe-wallet.png'
+import starwars from '../images/projetos/front/front-star-wars.png'
 
 const data = [
   {
@@ -182,6 +183,17 @@ const data = [
       imagem: wallet,
       link: "https://trybe-wallet-tomas-breuckmann.vercel.app/",
       git: "https://github.com/Tomas-Breuckmann/trybe-wallet",
+    },
+    {
+      nome: 'star wars planets',
+      modulo: 'frontend',
+      tipo: 'individual',
+      equipe: [],
+      habilidades: [],
+      objetivos: [],
+      imagem: starwars,
+      link: "https://star-wars-planet-list-tomas-breuckmann.vercel.app/",
+      git: "https://github.com/Tomas-Breuckmann/star-wars-planet-list",
     }
   ];
   

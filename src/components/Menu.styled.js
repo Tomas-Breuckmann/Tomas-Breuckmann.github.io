@@ -9,12 +9,12 @@ export const MainMenu=styled.div`
     /* height: 40px; */
     /* margin-right: 10px; */
     /* background-color: red; */
-    margin-right: -40px;
+    margin-left: 20px;
     margin-top: 4px;
 
     @media (max-width: 400px) {
         visibility: hidden;
         opacity: 0;
-        transition: visibility 2s linear 300ms, opacity 300ms;
+        /* transition: visibility 2s linear 300ms, opacity 300ms; */
   }
 `

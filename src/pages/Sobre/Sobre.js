@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import { Body } from '../../Styles/Helpers.styles';
 import euYoga from '../../images/tomas-yoga.jpg'
 import { Img, SobreMain } from './Sobre.styles';
@@ -13,8 +12,6 @@ const Techs = styled.section`
 
     img {
         height: 30px;
-        /* background-color: red; */
-        /* width: 200px; */
     }
 `;
 
@@ -50,7 +47,6 @@ function Sobre() {
                 <li>Bacharel em Matemática - UFPR - 2002</li>
             </ul>
             </SobreMain>
-            {/* <Footer /> */}
         </Body>
     )
 }
