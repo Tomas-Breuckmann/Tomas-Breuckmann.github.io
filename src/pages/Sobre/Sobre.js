@@ -4,16 +4,8 @@ import { Body } from '../../Styles/Helpers.styles';
 import euYoga from '../../images/tomas-yoga.jpg'
 import { Img, SobreMain } from './Sobre.styles';
 import styled from 'styled-components'
-
-const Techs = styled.section`
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-
-    img {
-        height: 30px;
-    }
-`;
+import Techs from './Techs';
+import SobreMim from './SobreMim';
 
 const H2 = styled.h2`
     margin-top: 12px;
@@ -21,23 +13,27 @@ const H2 = styled.h2`
     border-bottom: 1px solid var(--orange-40);
 `
 
+const MiniCurriculo=styled.div`
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 570px) {
+        flex-direction: row;
+        align-items: flex-end;
+        /* background-color: green; */
+  }
+`
+
 function Sobre() {
     return(
         <Body>
             <Header />
             <SobreMain>
-                <Img src={ euYoga } alt="minha foto yoga" />
-                <h1>Tomas Breuckmann</h1>
-                <H2>Tecnologias</H2>
-            <Techs>
-                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
-                <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>
-                <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript"/>
-                <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="styled-components"/>
-                <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt=""react/>
-                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node"/>
-                <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="sql"/>
-            </Techs>
+                <MiniCurriculo>
+                    <Img src={ euYoga } alt="minha foto yoga" />
+                    <SobreMim/>
+                </MiniCurriculo>
+            <Techs/>
             <H2>Formações</H2>
             <ul>
                 <li>Programador Web Full Stack - Trybe - 2022</li>

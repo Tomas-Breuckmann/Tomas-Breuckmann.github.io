@@ -12,7 +12,7 @@ export const SobreMain=styled.main`
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    /* background: whitesmoke; */
+    /* background-color: red; */
     width: 90%;
     margin: 0px auto;
     color: white;
